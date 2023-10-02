@@ -1,0 +1,125 @@
+###############################################
+OpenGameArt.org automatically generated credits file notice:
+
+THIS FILE IS FOR INFORMATIONAL PURPOSES ONLY.  NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL OPENGAMEART.ORG BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS FILE OR THE INFORMATION IN IT.
+
+In plain English:  This credits file is automatically generated to the best of our ability, but it remains YOUR RESPONSIBILITY as a game developer to ensure that the art you use is attributed properly.  That is, we can't be held liable even if all of the information in this file is completely wrong.   In addition, some of the art listed in this file may have SPECIAL ATTRIBUTION INSTRUCTIONS that ask that you credit the artist in a particular way, rather than a verbatim copyright notice.  In those cases, you will probably need to hand-edit this file to comply with their instructions.  In some older art, attribution instructions may be included in the art description itself.  Please check the art page to be sure.
+
+We recommend that you delete this notice when you're sure the information here is correct and the attribution instructions are properly followed.  If you aren't the game developer and you're seeing this notice here in the credits, it probably means that the developer hasn't properly verified the attribution information contained herein even though it said they were supposed to do it right on the page where they downloaded this file.  
+###############################################
+
+Title:
+    Bullet Collection 1 (M484)
+
+Author:
+    Master484
+
+URL:
+    https://opengameart.org/content/bullet-collection-1-m484
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * M484BulletCollection1.png
+
+----------------------------------------
+
+Title:
+    Enemy game character - UFO spaceship
+
+Author:
+    bevouliin.com
+
+URL:
+    https://opengameart.org/content/enemy-game-character-ufo-spaceship
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+File(s):
+    * ufo_alien_enemy_game_charcacter.zip
+
+----------------------------------------
+
+Title:
+    UFO - Enemy Game Character
+
+Author:
+    bevouliin.com
+
+URL:
+    https://opengameart.org/content/ufo-enemy-game-character
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * ufo_game_enemy.zip
+
+----------------------------------------
+
+Title:
+    Explosion effects and more
+
+Author:
+    Soluna Software
+
+URL:
+    https://opengameart.org/content/explosion-effects-and-more
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+Copyright/Attribution Notice:
+    Use this as you like. You do not need to credit me.
+
+File(s):
+    * Explosion03.png
+    * Explosion21.png
+    * Effect95.png
+    * Effect47.png
+    * Aura38.png
+
+----------------------------------------
+
+Title:
+    Space Parallax Background
+
+Author:
+    scorcher24
+
+URL:
+    https://opengameart.org/content/space-parallax-background
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * Parallax60.png
+    * Parallax80.png
+    * Parallax100.png
+    * BackdropBlackLittleSparkBlack.png
+    * BackdropBlackLittleSparkTransparent.png
+
+----------------------------------------
+
+Title:
+    Asteroids
+
+Author:
+    phaelax
+
+URL:
+    https://opengameart.org/content/asteroids
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+
+File(s):
+    * asteroids.zip
+
+----------------------------------------
+
+
