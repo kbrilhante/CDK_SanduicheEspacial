@@ -1,6 +1,6 @@
 # CDK_SanduicheEspacial 🕹️ 🥪
 
-##PT
+## PT
 Joguinho Espacial Side Scroller
 
-##Resources
+## Resources
