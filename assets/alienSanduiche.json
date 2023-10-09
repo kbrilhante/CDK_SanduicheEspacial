@@ -1,0 +1,172 @@
+{"frames": [
+
+{
+	"filename": "skeleton-animation_00.png",
+	"frame": {"x":1,"y":1,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_01.png",
+	"frame": {"x":208,"y":1,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_02.png",
+	"frame": {"x":415,"y":1,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_03.png",
+	"frame": {"x":622,"y":1,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_04.png",
+	"frame": {"x":829,"y":1,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_05.png",
+	"frame": {"x":1,"y":179,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_06.png",
+	"frame": {"x":208,"y":179,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_07.png",
+	"frame": {"x":415,"y":179,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_08.png",
+	"frame": {"x":622,"y":179,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_09.png",
+	"frame": {"x":829,"y":179,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_10.png",
+	"frame": {"x":1,"y":357,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_11.png",
+	"frame": {"x":208,"y":357,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_12.png",
+	"frame": {"x":415,"y":357,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_13.png",
+	"frame": {"x":622,"y":357,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_14.png",
+	"frame": {"x":829,"y":357,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_15.png",
+	"frame": {"x":1,"y":535,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_16.png",
+	"frame": {"x":208,"y":535,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_17.png",
+	"frame": {"x":415,"y":535,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_18.png",
+	"frame": {"x":622,"y":535,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+},
+{
+	"filename": "skeleton-animation_19.png",
+	"frame": {"x":829,"y":535,"w":205,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":176},
+	"sourceSize": {"w":205,"h":176}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "alienSanduiche.png",
+	"format": "RGBA8888",
+	"size": {"w":1035,"h":712},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8cc7d9573f2b06c68c827068db41d484:00aa1f0cb535f952b75f403a3381b0c1:26bf2d98938282260b13ebedd8de719f$"
+}
+}
