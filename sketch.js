@@ -1,6 +1,6 @@
 let bgImg = [];
-let alienSS, alienJSON;
-let bg, alien;
+let alienSS;
+let bg, alien, edges;
 
 function preload() {
     bgImg.push(loadImage("./assets/star bg/1.png"));
@@ -8,13 +8,13 @@ function preload() {
     bgImg.push(loadImage("./assets/star bg/3.png"));
     bgImg.push(loadImage("./assets/star bg/4.png"));
     alienSS = loadImage("./assets/alienSanduiche.png");
-    // alienJSON = loadJSON("./assets/alienSanduiche.json");
 }
 
 function setup() {
     new Canvas (bgImg[0].w / 2, bgImg[0].h / 2);
     
     bg = new BackgroundGroup(bgImg);
+    edges = new Edges();
     
     alien = new Alien(alienSS);
 }
@@ -23,11 +23,14 @@ function draw() {
     background("#fff");
 
     bg.checkPosition();
+
+    alien.handleControls();
 }
 
 function mousePressed() {
     allSprites.debug = true;
     bg.move();
+    alien.startFlying();
 }
 
 function mouseReleased() {
