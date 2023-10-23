@@ -1,8 +1,8 @@
 class Alien {
     constructor() {
         this.acceleration = {
-            x: 1,
-            y: 1
+            x: 0.2,
+            y: 0.2
         }
         this.isFlying = false;
         this.sprite = new Sprite();
