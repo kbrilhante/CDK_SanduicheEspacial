@@ -1,5 +1,5 @@
 let bgImg = [];
-let alienSS, asteroidSS;
+let alienSS, asteroidSS, tomatoAni;
 let bg, alien, edges, asteroids;
 let gameStart, gameOver;
 
@@ -10,6 +10,7 @@ function preload() {
     bgImg.push(loadImage("./assets/star bg/4.png"));
     alienSS = loadImage("./assets/alienSanduiche.png");
     asteroidSS = loadImage("./assets/asteroids64.png");
+    tomatoAni = loadImage("./assets/tomate.png");
 }
 
 function setup() {
@@ -28,19 +29,6 @@ function setup() {
 
 function draw() {
     background("#fff");
-    // if (kb.pressed("z")) {
-    //     asteroids.sprite.changeAni("a0");
-    // } else if (kb.pressed("x")) {
-    //     asteroids.sprite.changeAni("a1");
-    // } else if (kb.pressed("c")) {
-    //     asteroids.sprite.changeAni("a2");
-    // } else if (kb.pressed("v")) {
-    //     asteroids.sprite.changeAni("a3");
-    // } else if (kb.pressed("b")) {
-    //     asteroids.sprite.changeAni("a4");
-    // } else if (kb.pressed("n")) {
-    //     asteroids.sprite.changeAni("a5");
-    // }
     if (gameStart) {
         bg.checkPosition();
     }
@@ -48,16 +36,18 @@ function draw() {
     if (!gameStart && !gameOver && kb.pressed('enter')) {
         startGame();
     }
-
+    
     if (gameStart && !gameOver) {
         alien.handleControls();
+        asteroids.create();
+        asteroids.destroy();
+        console.log(frameCount);
     }
 
 }
 
 function mousePressed() {
     allSprites.debug = true;
-    asteroids.create()
 }
 
 function mouseReleased() {

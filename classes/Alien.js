@@ -22,6 +22,11 @@ class Alien {
         this.sprite.bounciness = 0;
         this.sprite.friction = 0;
         this.sprite.rotationDrag = 0;
+        this.shots = new Group();
+        this.shots.collider = "k";
+        this.shots.diameter = 22;
+        this.shots.anis.frameSize = [22, 22];
+        this.shots.addAni("tomato", tomatoAni);
     }
     startFlying() {
         this.sprite.ani.play();
@@ -43,6 +48,15 @@ class Alien {
             } else {
                 this.sprite.vel.y = 0;
             }
+            if (kb.presses(' ')) {
+                this.shoot();
+            }
         }
+    }
+    shoot() {
+        let t = new this.shots.Sprite();
+        t.x = this.sprite.x;
+        t.y = this.sprite.y;
+        t.vel.x = 10;
     }
 }

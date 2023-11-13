@@ -18,13 +18,23 @@ class Asteroids {
             a8: { row: 8, frames: 1 }
         });
     }
-    create () {
-        let sprite = new this.group.Sprite();
-        sprite.x = random(width + this.group.diameter, 2 * width);
-        sprite.y = random(this.group.diameter, height - this.group.diameter);
-        sprite.vel.x = -random(1, 4);
-        sprite.changeAni("a" + floor(random(8)));
-        sprite.rotationSpeed = random([-1, 1]) * sprite.vel.x;
-        sprite.scale = random(0.3, 1);
+    create() {
+        if (frameCount % 200 === 0) {
+            let sprite = new this.group.Sprite();
+            sprite.x = random(width + this.group.diameter, 2 * width);
+            sprite.y = random(this.group.diameter, height - this.group.diameter);
+            sprite.vel.x = -random(1, 4);
+            sprite.changeAni("a" + floor(random(8)));
+            sprite.rotationSpeed = random([-1, 1]) * sprite.vel.x;
+            sprite.scale = random(0.3, 1);
+        }
+    }
+    destroy() {
+        for (let i = 0; i < this.group.length; i++) {
+            let ast = this.group[i];
+            if (ast.x < -100) {
+                ast.life = -1;
+            }
+        }
     }
 }
