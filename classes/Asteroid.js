@@ -14,8 +14,11 @@ class Asteroids {
             a4: { row: 4, frames: 1 },
             a5: { row: 5, frames: 1 },
             a6: { row: 6, frames: 1 },
-            a7: { row: 7, frames: 1 },
-            a8: { row: 8, frames: 1 }
+            // a7: { row: 7, frames: 1 }
+        });
+        this.group.addAni("explode", "./assets/Explosion21.png", {
+            frameSize: [128, 128],
+            frames: 16
         });
     }
     create() {
@@ -24,7 +27,8 @@ class Asteroids {
             sprite.x = random(width + this.group.diameter, 2 * width);
             sprite.y = random(this.group.diameter, height - this.group.diameter);
             sprite.vel.x = -random(1, 4);
-            sprite.changeAni("a" + floor(random(8)));
+            const l = Object.keys(this.group.anis).length - 1 // quantidade de animações
+            sprite.changeAni("a" + floor(random(l)));
             sprite.rotationSpeed = random([-1, 1]) * sprite.vel.x;
             sprite.scale = random(0.3, 1);
         }

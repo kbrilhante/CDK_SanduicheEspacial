@@ -30,18 +30,22 @@ function setup() {
 function draw() {
     background("#fff");
     if (gameStart) {
+        // jogo começou, independente de game over
         bg.checkPosition();
     }
 
     if (!gameStart && !gameOver && kb.pressed('enter')) {
+        // inicia o jogo
         startGame();
     }
     
     if (gameStart && !gameOver) {
+        // jogo em andamento
         alien.handleControls();
         asteroids.create();
         asteroids.destroy();
-        console.log(frameCount);
+        alien.handleShotCollisions();
+        alien.handleEnemyCollisions();
     }
 
 }

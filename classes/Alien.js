@@ -15,7 +15,7 @@ class Alien {
             frames: 20,
             frameDelay: 2
         };
-        this.sprite.addAni("fly", alienSS, aniOpt)
+        this.sprite.addAni("fly", alienSS, aniOpt);
         this.sprite.ani.stop();
         this.sprite.mirror.x = -1;
         this.sprite.scale = 0.7;
@@ -25,6 +25,8 @@ class Alien {
         this.shots = new Group();
         this.shots.collider = "k";
         this.shots.diameter = 22;
+        this.shots.friction = 0;
+        this.shots.bounciness = 0;
         this.shots.anis.frameSize = [22, 22];
         this.shots.addAni("tomato", tomatoAni);
     }
@@ -55,8 +57,22 @@ class Alien {
     }
     shoot() {
         let t = new this.shots.Sprite();
-        t.x = this.sprite.x;
+        t.x = this.sprite.x + this.sprite.radius + t.radius;
         t.y = this.sprite.y;
+        t.addCollider(0, 0, t.diameter, t.diameter);
         t.vel.x = 10;
     }
+    handleShotCollisions() {
+        for(let i = 0; i < this.shots.length; i++) {
+            const bullet = this.shots[i];
+            if (bullet.collides(asteroids.group)) {
+                console.log("aaaa")
+            }
+        }
+        this.shots.collides(asteroids.group, this.enemyShot);
+    }
+    enemyShot(proj, target) {
+        proj.remove();
+    }
+    handleEnemyCollisions() {}
 }
